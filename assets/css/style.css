@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+.container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        /* gap: 50px; */
+        /* margin-inline: auto; */
+        /* align-items: center; */
+        /* width: 100%; */
+        /* height: 100vh; */
+
+}
+
+.first-input{
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+
+.date-input{
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    
+}
+
+.todo{
+    padding-top: 10px;
+    padding: 10px 30px;
+    height: 40px;
+    list-style: none;
+    color: blue;
+    margin-left: 50px ;
+    margin-top: 0px;
+
+}
+/* 
+.editBtn{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+      
+.deleteBtn{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+*/
+      
+.okeyBtn{
+    background-color: green;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* .todo{
+    list-style-type: none;
+    background-color: white;
+    border-radius: 8px;
+} */
